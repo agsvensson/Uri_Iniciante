@@ -7,48 +7,43 @@ public class Uri_1042 {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
 
-        int n1 = sc.nextInt();
-        int n2 = sc.nextInt();
-        int n3 = sc.nextInt();
-
-        if (n1 < n2 && n1 < n3) {
-            System.out.println(n1);
-            if (n2 < n3) {
-                System.out.println(n2);
-                System.out.println(n3);
-            } else
-                System.out.println(n3);
-                System.out.println(n2);
-        } else if (n2 < n1 && n2 < n3) {
-            System.out.println(n2);
-            if (n1 < n3) {
-                System.out.println(n1);
-                System.out.println(n3);
-            } else
-                System.out.println(n3);
-                System.out.println(n1);
-
-        } else if (n3 < n1 && n3 < n2) {
-            System.out.println(n3);
-            if (n1 < n2) {
-                System.out.println(n1);
-                System.out.println(n2);
-            } else
-                System.out.println(n2);
-
-        } else if (n2 < n1) {
-            System.out.println(n2);
-            System.out.println(n1);
-        } else
-            System.out.println(n1);
+        int A = sc.nextInt();
+        int B = sc.nextInt();
+        int C = sc.nextInt();
+        if (A < B && A < C) {
+            System.out.println(A);
+            if (B < C) {
+                System.out.println(B);
+                System.out.println(C);
+            } else {
+                System.out.println(C);
+                System.out.println(B);
+            }
+        } else if (B < C) {
+            System.out.println(B);
+            if (A < C) {
+                System.out.println(A);
+                System.out.println(C);
+            } else {
+                System.out.println(C);
+                System.out.println(A);
+            }
+        } else {
+            System.out.println(C);
+            if (A < B) {
+                System.out.println(A);
+                System.out.println(B);
+            } else {
+                System.out.println(B);
+                System.out.println(A);
+            }
+        }
 
         System.out.println();
-        System.out.println(n1);
-        System.out.println(n2);
-        System.out.println(n3);
+        System.out.println(A);
+        System.out.println(B);
+        System.out.println(C);
 
         sc.close();
     }
-
-
 }
