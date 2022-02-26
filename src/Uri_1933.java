@@ -5,15 +5,13 @@ public class Uri_1933 {
 
         Scanner sc = new Scanner(System.in);
 
-        int quantidadeCodigos = sc.nextInt();
-        int [] vet = new int[];
-        int codigo;
-
-        for (int i = 0; i < quantidadeCodigos; i++) {
-
-        }
-
-
+//        int quantidadeCodigos = sc.nextInt();
+//        int [] vet = new int[];
+//        int codigo;
+//
+//        for (int i = 0; i < quantidadeCodigos; i++) {
+//
+//        }
 
         sc.close();
     }

@@ -1,7 +1,7 @@
-/* Leia 2 valores inteiros e armazene-os nas variáveis A e B. Efetue a soma de A e B atribuindo o seu 
- * resultado na variável X. Imprima X conforme exemplo apresentado abaixo. Não apresente mensagem 
- * alguma além daquilo que está sendo especificado e não esqueça de imprimir o fim de linha após 
- * o resultado, caso contrário, você receberá "Presentation Error". */
+/* Leia 2 valores inteiros e armazene-os nas variÃ¡veis A e B. Efetue a soma de A e B atribuindo o seu 
+ * resultado na variÃ¡vel X. Imprima X conforme exemplo apresentado abaixo. NÃ£o apresente mensagem 
+ * alguma alÃ©m daquilo que estÃ¡ sendo especificado e nÃ£o esqueÃ§a de imprimir o fim de linha apÃ³s 
+ * o resultado, caso contrÃ¡rio, vocÃª receberÃ¡ "Presentation Error". */
 
 import java.util.Scanner;
 
